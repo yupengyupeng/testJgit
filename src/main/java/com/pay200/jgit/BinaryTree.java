@@ -9,6 +9,9 @@ public class BinaryTree {
     
     /** 
      *  
+     *  
+     *  
+     *  
      * 内部节点类 
      */  
     private class Node{  

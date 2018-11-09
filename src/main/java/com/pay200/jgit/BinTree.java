@@ -11,6 +11,9 @@ import java.util.List;
 * @version 创建时间：2018年10月18日 下午8:09:39 
 * 类说明 
 */
+
+
+
 public class BinTree {
 	///
 	private BinTree lChild;//左孩子

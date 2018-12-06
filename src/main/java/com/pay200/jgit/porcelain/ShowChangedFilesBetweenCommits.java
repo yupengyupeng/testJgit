@@ -47,6 +47,7 @@ public class ShowChangedFilesBetweenCommits {
             ObjectId oldHead = repository.resolve("HEAD^^^^{tree}");
             ObjectId head = repository.resolve("HEAD^{tree}");
 
+            
             System.out.println("Printing diff between tree: " + oldHead + " and " + head);
 
             // prepare the two iterators to compute the diff between

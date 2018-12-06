@@ -24,7 +24,6 @@ import org.eclipse.jgit.storage.file.FileRepositoryBuilder;
 
 
 public class CookbookHelper {
-    private static final String REMOTE_URL = "https://yupengqaq:qwer1234@gitee.com/yupengqaq/testJgit/";
 
     public static Repository openJGitCookbookRepository() throws IOException {
         FileRepositoryBuilder builder = new FileRepositoryBuilder();
